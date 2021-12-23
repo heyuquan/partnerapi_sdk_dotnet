@@ -1,11 +1,6 @@
-﻿using Newtonsoft.Json.Schema;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml;
-using System.Xml.Schema;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Xml.Serialization;
+using System.Xml.Schema;
 
 namespace Walmart.Sdk.Base.Util
 {
