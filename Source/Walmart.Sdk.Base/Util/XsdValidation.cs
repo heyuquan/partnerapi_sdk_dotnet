@@ -7,7 +7,7 @@ namespace Walmart.Sdk.Base.Util
 {
     public class XsdValidation
     {
-        public static List<ValidationEventArgs> validateXml(string xsdFilePath, string xmlFilePath)
+        public static List<System.Xml.Schema.ValidationEventArgs> validateXml(string xsdFilePath, string xmlFilePath)
         {
             // TODO: figure out how to validate xml files with xsd schema
             XmlSchema xsd;
@@ -17,7 +17,7 @@ namespace Walmart.Sdk.Base.Util
             }
             
 
-            return new List<ValidationEventArgs>();
+            return new List<System.Xml.Schema.ValidationEventArgs>();
         }
     }
 }

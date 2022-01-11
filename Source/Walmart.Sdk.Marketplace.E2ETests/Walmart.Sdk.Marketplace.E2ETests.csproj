@@ -7,13 +7,6 @@
 
   <ItemGroup>
     <None Remove="settings.json" />
-    <None Remove="V2\requestStub\inventoryBulkUpdate.xml" />
-    <None Remove="V2\requestStub\inventoryUpdate.xml" />
-    <None Remove="V2\requestStub\itemFeed.xml" />
-    <None Remove="V2\requestStub\priceFeed.xml" />
-    <None Remove="V2\requestStub\updateLagTime.xml" />
-    <None Remove="V2\requestStub\updatePrice.xml" />
-    <None Remove="V2\requestStub\promotionFeed.xml" />
     <None Remove="V3\requestStub\priceFeed.xml" />
     <None Remove="V3\requestStub\promotionFeed.xml" />
     <None Remove="V3\requestStub\updatePrice.xml" />
@@ -33,13 +26,6 @@
 
   <ItemGroup>
     <EmbeddedResource Include="settings.json" />
-    <EmbeddedResource Include="V2\requestStub\inventoryBulkUpdate.xml" />
-    <EmbeddedResource Include="V2\requestStub\inventoryUpdate.xml" />
-    <EmbeddedResource Include="V2\requestStub\itemFeed.xml" />
-    <EmbeddedResource Include="V2\requestStub\priceFeed.xml" />
-    <EmbeddedResource Include="V2\requestStub\updateLagTime.xml" />
-    <EmbeddedResource Include="V2\requestStub\updatePrice.xml" />
-    <EmbeddedResource Include="V2\requestStub\promotionFeed.xml" />
     <EmbeddedResource Include="V3\requestStub\itemFeed.xml" />
     <EmbeddedResource Include="V3\requestStub\priceFeed.xml" />
     <EmbeddedResource Include="V3\requestStub\promotionFeed.xml" />
